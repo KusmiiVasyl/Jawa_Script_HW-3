@@ -5,6 +5,8 @@ body {
 }
 
 .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: orange;
 }
 
@@ -62,6 +64,10 @@ img {
 .b4 {
     clear: left;
     margin: 30px 160px;
+}
+
+.b5 {
+    background: darkorange;
 }
 
 /* --------------------------- */

@@ -1,0 +1,24 @@
+<!doctype html />
+<html style="background-color: white;">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="body_task2" style="background-color: white;">
+    <div>
+        <a href="./index.html">Повернутись до головного меню</a>
+    </div>
+    <div class="block b5"></div>
+
+    <script>
+        let block_5 = document.getElementsByClassName("b5");
+        let body_task2 = document.getElementById("body_task2");
+        body_task2.addEventListener("click", function (e) {
+            block_5[0].style.marginTop = (e.pageY - 30) + "px";
+            block_5[0].style.marginLeft = (e.pageX - 10) + "px";
+        });
+    </script>
+</body>
+
+</html>
