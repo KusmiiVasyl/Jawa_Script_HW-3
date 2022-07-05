@@ -1,3 +1,4 @@
+/* Style for page index.html */
 html,
 body {
     background-color: rgb(81, 79, 79);
@@ -33,3 +34,34 @@ img {
     position: relative;
     width: 100%;
 }
+
+/* --------------------------- */
+
+/* Style for page task1.html */
+.block {
+    background-color: grey;
+    border: 1px solid gray;
+    float: left;
+    height: 100px;
+    margin: 20px;
+    width: 100px;
+}
+
+.b1 {
+    background: lime;
+}
+
+.b2 {
+    background: gold;
+}
+
+.b3 {
+    background: tomato;
+}
+
+.b4 {
+    clear: left;
+    margin: 30px 160px;
+}
+
+/* --------------------------- */
