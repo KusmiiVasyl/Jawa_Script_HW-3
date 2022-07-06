@@ -71,3 +71,21 @@ img {
 }
 
 /* --------------------------- */
+
+.pos1,
+.pos2,
+.pos3 {
+    position: absolute;
+}
+
+.pos1 {
+    margin-left: 20px;
+}
+
+.pos2 {
+    margin-left: 140px;
+}
+
+.pos3 {
+    margin-left: 260px;
+}
